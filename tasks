@@ -1,0 +1,25 @@
+List of tasks to perform by Daniel
+
+TASK 1 - PROJECT CONFIGURATION
+-Install maven (Create environment variables)
+-Install Java JDK 17 (create environment variables)
+-Install Git
+-Create the SSH KEY in git
+-Send ssh key to Miguel
+-Clone the repository
+-Create a new branch (mark as done all the items completed in this list)
+-Push your new branch
+-Create a Pull Request
+
+
+TASK 2 - POC spring boot (POC= proof Of Concept)
+-Create a new branch
+-Install the spring boot dependencies
+-Make a POC with springboot
+-push your new branch
+
+TASK 3 - DATABASES
+-Create the connection to Database
+-Create a method to query the database (just reading)
+Note: Send me the database file to have a copy.
+
