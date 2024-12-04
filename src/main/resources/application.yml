@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: Inventory-company
+  datasource:
+    driver-class-name: org.h2.Driver
+    username: a
+    password: a
+    url: "jdbc:h2:mem:inventory;DB_CLOSE_ON_EXIT=FALSE"
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    show-sql: true  # Muestra las consultas SQL en la consola
+    hibernate:
+        ddl-auto: update  # Estrategia de manejo del esquema (puede ser create, update, validate o none)
+        database-platform: org.hibernate.dialect.MySQL5Dialect  # Dialecto de Hibernate para MySQL
+    defer-datasource-initialization: true  # Retrasa la inicialización del datasource hasta que se necesite
